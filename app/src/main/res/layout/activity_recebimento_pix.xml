@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activity_recebimentoPix">
+
+    <!--O comando android:textStyle="" serve para negritar as palavras/frases-->
+    <TextView
+        android:id="@+id/textView7_recebimentoPix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O valor depositado poderá levar até 48 horas para ser creditado."
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <TextView
+        android:id="@+id/textView6_recebimentoPix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Coin Investimentos Digitais"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
+
+    <TextView
+        android:id="@+id/textView5_recebimentoPix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorecido"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <TextView
+        android:id="@+id/textView4_recebimentoPix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXX.XXX.XXX/XXXX-XX"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <TextView
+        android:id="@+id/textView_recebimentoPix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deposite via PIX"
+        android:textColor="#3E3D3D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <!--O comando android:textStyle="" serve para negritar as palavras/frases-->
+    <TextView
+        android:id="@+id/textView2_recebimentoPix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atenção! \nOs valores a serem transferidos \ndevem ser enviados de uma conta bancária \nem que você é o títular. \nO CPF da conta deve ser o mesmo \ncadastrado em sua conta Pay Coin."
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#E53935"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/textView3_recebimentoPix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chave PIX"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <ImageButton
+        android:id="@+id/recebimentoPix_imgbtn_rebeberTransferencia"
+        android:layout_width="68dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/voltar" />
+
+    <Button
+        android:id="@+id/recebimentoPix_btn_confirmaPagamento"
+        android:layout_width="346sp"
+        android:layout_height="50sp"
+        android:backgroundTint="#FF5722"
+        android:text="Avançar"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+</androidx.constraintlayout.widget.ConstraintLayout>

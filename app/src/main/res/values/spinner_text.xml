@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="moedas_array">
+        <item>Real R$</item>
+        <item>Dolar $</item>
+        <item>Bitcoin ₿</item>
+        <item>Libra £</item>
+        <item>Iene ¥</item>
+           </string-array>
+</resources>

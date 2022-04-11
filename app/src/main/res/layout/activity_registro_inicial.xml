@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#7CB342"
+    android:fillViewport="true"
+    android:orientation="horizontal">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activity_registroInicial">
+
+    <ImageButton
+        android:id="@+id/registroInicial_imgbtn_voltarLogin"
+        android:layout_width="69sp"
+        android:layout_height="70sp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019"
+        app:srcCompat="@drawable/voltar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crie sua conta"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+
+    <TextView
+        android:layout_width="346dp"
+        android:layout_height="68dp"
+        android:text="Insira seus dados abaixo para fazer seu cadastro"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <EditText
+        android:id="@+id/registroInicial_edt_inserirNome"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:hint="Nome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <!--O comando android:maxLength permite a limitação de carateres-->
+
+    <EditText
+        android:id="@+id/registroInicial_edt_inserirCpf"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:hint="CPF"
+        android:maxLength="11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registroInicial_edt_inserirNome"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/registroInicial_edt_inserirDataNascimento"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:hint="Data de Nascimento"
+        android:maxLength="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registroInicial_edt_inserirCpf"
+        app:layout_constraintVertical_bias="0.037" />
+
+
+    <EditText
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:hint="Confirme o e-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registroInicial_edt_inserirEmail"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <EditText
+        android:id="@+id/registroInicial_edt_inserirEmail"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:hint="E-mail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registroInicial_edt_inserirDataNascimento"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/registroInicial_btn_registroFinal"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#FF5722"
+        android:text="Avançar"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

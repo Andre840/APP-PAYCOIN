@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.meuaplicativopaycoin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MeuAplicativoPayCoin">
+        <activity
+            android:name=".Activity_concluido"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_transacaoConcluida"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_registroInicial"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_registroFinal"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_recebimentoPix"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_receberTransferencia"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_realizarTransferencia"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_perfil"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_pagarQrCode"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_pagarCodigoBarras"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_opcaoTransferencia"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_metodoPagamento"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_inserirPixTransferencia"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_extratos"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_digiteCodigoBarras"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_detalhesPagamento"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_definirValorTransferencia"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_confirmacao"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_autenticacao"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

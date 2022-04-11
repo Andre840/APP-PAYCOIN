@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activity_receberTransferencia">
+
+    <Button
+        android:id="@+id/receberTransferencia_btn_receberViaPix"
+        android:layout_width="346sp"
+        android:layout_height="100sp"
+        android:backgroundTint="#FF5722"
+        android:ems="1000"
+        android:imeOptions="actionGo"
+        app:icon="@drawable/logopix"
+        app:iconGravity="textStart"
+        app:iconPadding="25dp"
+        app:iconTint="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/receberTransferencia_imgbtn_voltarOpcaoTransferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/voltaresp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <!--O comando android:textAligmente centraliza o texto e o \n da o espaçamento de linha-->
+</androidx.constraintlayout.widget.ConstraintLayout>

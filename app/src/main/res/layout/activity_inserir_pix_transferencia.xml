@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activity_inserirPixTransferencia">
+
+    <ImageView
+        android:id="@+id/inserirPixTransferencia_imgV_logo"
+        android:layout_width="192dp"
+        android:layout_height="181dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/paycoinlogo" />
+
+    <EditText
+        android:id="@+id/inserirPixTransferencia_edT_entrarChavePix"
+        android:layout_width="280sp"
+        android:layout_height="60sp"
+        android:ems="10"
+        android:hint="Chave PIX"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewpdr_inserirPixTransferencia"
+        android:layout_width="280sp"
+        android:layout_height="60sp"
+        android:text="Para qual chave \n você deseja transferir?"
+        android:textAlignment="center"
+        android:textColor="#3E3D3D"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <Button
+        android:id="@+id/inserirPixTransferencia_btn_autenticar"
+        android:layout_width="346sp"
+        android:layout_height="50sp"
+        android:backgroundTint="#FF5722"
+        android:text="avançar"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <ImageButton
+        android:id="@+id/inserirPixTransferencia_imgbtn_voltarDefinirValores"
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+</androidx.constraintlayout.widget.ConstraintLayout>

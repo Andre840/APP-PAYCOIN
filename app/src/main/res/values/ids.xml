@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="FinalregistrationScreen_edt_confirmpassword" type="id" />
+    <item name="Activity_login" type="id" />
+    <item name="Login_btn_login" type="id" />
+    <item name="Login_btn_registro" type="id" />
+</resources>
